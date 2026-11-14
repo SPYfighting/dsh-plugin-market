@@ -11,7 +11,7 @@
       "content": "按 AGENTS.md / SKILL.md 的 YAML 头部规则、已绑定的自定义模式与运行时探测，为每个会话动态拼装系统提示词与工具白名单：pinned 规则固顶不截断，scoped 规则按字节预算裁剪，白名单外的工具由会话守卫拒绝。"
     }
   ],
-  "support_versions": "0.2.2-rc.1 || 0.2.2-rc.2",
+  "support_versions": ">=0.2.2-alpha.1",
   "urls": {
     "homepage": "https://github.com/dsh-plugins/dsh-prompt-router",
     "repository": "https://github.com/dsh-plugins/dsh-prompt-router",
