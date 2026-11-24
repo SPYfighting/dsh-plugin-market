@@ -11,7 +11,7 @@
       "content": "保护思考翻译的 Markdown 格式，支持流式翻译，兼容官方翻译及 dsh-auxiliary 模型选择。"
     }
   ],
-  "support_versions": ">=0.2.2-alpha.2 <0.2.3-0",
+  "support_versions": ">=0.2.2-alpha.3 <0.2.3-0 || >=0.2.3-alpha.2 <0.2.4-0",
   "urls": {
     "homepage": "https://github.com/dsh-plugins/dsh-markdown-translation",
     "repository": "https://github.com/dsh-plugins/dsh-markdown-translation",
@@ -21,12 +21,12 @@
     {
       "type": "dependency",
       "id": "@dsh-plugin/dsh-loader",
-      "versions": "^2.0.0-dev.43799314028"
+      "versions": "^2.0.0-dev.45328381034"
     },
     {
       "type": "dependency",
       "id": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
-      "versions": ">=0.2.2-alpha.2 <0.2.3-0"
+      "versions": ">=0.2.2-alpha.3 <0.2.3-0 || >=0.2.3-alpha.2 <0.2.4-0"
     }
   ]
 }

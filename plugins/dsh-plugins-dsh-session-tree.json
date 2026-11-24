@@ -11,7 +11,7 @@
       "content": "为官方 DSH 聊天提供树状会话：切换消息分支、原位编辑用户消息、撤回答复和待发送输入、重试助手回复。完整树独立保存，激活路径以官方会话格式导出。"
     }
   ],
-  "support_versions": ">=0.2.2-alpha.1",
+  "support_versions": "0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3 || >=0.2.3-alpha.2 <0.2.4-0",
   "urls": {
     "homepage": "https://github.com/dsh-plugins/dsh-session-tree",
     "repository": "https://github.com/dsh-plugins/dsh-session-tree",
@@ -21,7 +21,7 @@
     {
       "type": "dependency",
       "id": "@dsh-plugin/dsh-loader",
-      "versions": "^2.0.0-dev.43473963317"
+      "versions": "^2.0.0-dev.45328381034"
     }
   ]
 }

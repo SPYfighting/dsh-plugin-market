@@ -11,11 +11,17 @@
       "content": "在右侧栏新增 Git 面板，直接管理会话工作目录所在的仓库：分支与上游状态、按文件或分组暂存、带差异视图的提交、提交历史泳道图、分支切换、储藏、fetch/pull/push，以及逐区冲突解决。"
     }
   ],
-  "support_versions": ">=0.2.0-0",
+  "support_versions": ">=0.2.3-alpha.2 <0.2.4-0",
   "urls": {
     "homepage": "https://github.com/dsh-plugins/dsh-git-sidebar",
     "repository": "https://github.com/dsh-plugins/dsh-git-sidebar",
     "issues": "https://github.com/dsh-plugins/dsh-git-sidebar/issues"
   },
-  "relationship": []
+  "relationship": [
+    {
+      "type": "dependency",
+      "id": "@dsh-plugin/dsh-loader",
+      "versions": "^2.0.0-dev.45328381034"
+    }
+  ]
 }
