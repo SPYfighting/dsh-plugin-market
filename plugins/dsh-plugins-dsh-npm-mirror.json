@@ -11,7 +11,7 @@
       "content": "在 DSH 添加插件菜单中编辑 npm 仓库名称、URL 和尝试顺序。"
     }
   ],
-  "support_versions": ">=0.2.3-alpha.2 <0.2.4-0",
+  "support_versions": ">=0.2.2-rc.3 <0.2.3-0 || >=0.2.3-alpha.2 <0.2.4-0",
   "urls": {
     "homepage": "https://github.com/dsh-plugins/dsh-npm-mirror",
     "repository": "https://github.com/dsh-plugins/dsh-npm-mirror",
@@ -21,7 +21,7 @@
     {
       "type": "dependency",
       "id": "@dsh-plugin/dsh-loader",
-      "versions": "^2.0.0-dev.45328381034"
+      "versions": "^2.0.0-dev.45572825995"
     }
   ]
 }

@@ -21,7 +21,7 @@
     {
       "type": "dependency",
       "id": "@dsh-plugin/dsh-loader",
-      "versions": "^2.0.0-dev.45328381034"
+      "versions": "^2.0.0-dev.45572825995"
     },
     {
       "type": "dependency",
